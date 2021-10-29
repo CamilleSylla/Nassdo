@@ -1,0 +1,26 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 90;
+    top: -100vh;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+        width: 90%;
+        list-style: none;
+        height: 70%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        li {
+            height: 100%;
+            display: flex;
+            cursor: pointer;
+            font-size: 1.5rem;
+            font-weight: 700;
+            // -webkit-text-stroke: 1px #202B30;
+        }
+    }
+}

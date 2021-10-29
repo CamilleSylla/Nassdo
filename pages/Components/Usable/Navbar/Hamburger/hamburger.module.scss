@@ -1,0 +1,28 @@
+.wrapper {
+    cursor: pointer;
+position: absolute;
+right: 5%;
+width: 6vh;
+height: 6vh;
+border: 3px solid white;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+    .top, .mid, .bot {
+        width: 80%;
+        border-radius: 10px;
+        height: 3px;
+        background-color: blanchedalmond;
+        margin-left: 10%;
+    }
+    .top {
+        width: 33%;
+        transform-origin: left;
+    }
+    .mid {
+        width: 66%;
+    }
+    .bot {
+        transform-origin: left;
+    }
+}

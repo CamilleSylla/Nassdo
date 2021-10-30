@@ -1,0 +1,27 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    width: 80vh;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5vh;
+    column-gap: 5vh;
+    right: 10%;
+    .card {
+        border: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: white;
+        p {
+            text-align: justify;
+            text-justify:  newspaper;
+        }
+        h1, p {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

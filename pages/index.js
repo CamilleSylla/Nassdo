@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import About from './Components/Sections/About/About'
 import Banner from './Components/Sections/Banner'
+import Strength from './Components/Sections/Strength/Strength'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <Banner/>
+        <About/>
+        <Strength/>
       </main>
 
       <footer className={styles.footer}>

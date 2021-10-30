@@ -1,0 +1,23 @@
+.wrapper {
+    width: 30%;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+    img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+    .main {
+        position: absolute;
+        z-index: 4;
+        bottom: 0;
+        right: 0; 
+    }
+    .second {
+        opacity: .9;
+        filter: grayscale(50%);
+    }
+}

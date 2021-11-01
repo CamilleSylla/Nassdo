@@ -3,9 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import About from './Components/Sections/About/About'
 import Banner from './Components/Sections/Banner'
+import Cards from './Components/Sections/Cards/Cards'
 import Certification from './Components/Sections/Certification/Certification'
 import Clients from './Components/Sections/Clients/Clients'
 import Strength from './Components/Sections/Strength/Strength'
+import Footer from './Components/Usable/Footer/Footer'
 
 export default function Home() {
   return (
@@ -18,14 +20,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <Banner/>
+        <Cards/>
         <About/>
         <Strength/>
         <Clients/>
         <Certification/>
       </main>
 
-      <footer className={styles.footer}>
-      </footer>
+      <Footer/>
     </div>
   )
 }

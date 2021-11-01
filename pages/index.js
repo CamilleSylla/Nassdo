@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import About from './Components/Sections/About/About'
 import Banner from './Components/Sections/Banner'
+import Certification from './Components/Sections/Certification/Certification'
+import Clients from './Components/Sections/Clients/Clients'
 import Strength from './Components/Sections/Strength/Strength'
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
         <Banner/>
         <About/>
         <Strength/>
+        <Clients/>
+        <Certification/>
       </main>
 
       <footer className={styles.footer}>

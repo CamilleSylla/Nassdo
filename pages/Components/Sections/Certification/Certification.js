@@ -5,9 +5,14 @@ export default function Certification () {
 
     return (
         <section className={style.wrapper}>
+            <div className={style.round_gradient}/>
+            <div className={style.round_gradient}/>
+            <div className={style.round_gradient}/>
+            <div className={style.round_gradient}/>
             <div className={style.gradient}>
                 <DescZone
-                title="Partenaires et certifications"
+                title="Nos derniers travaux"
+                intro="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 btnContent="Nous connaître"
                 />

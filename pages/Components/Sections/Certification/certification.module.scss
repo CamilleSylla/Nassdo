@@ -3,10 +3,18 @@
     height: 100vh;
     background-image: url('/img/certification.jpg');
     background-size: cover;
+    position: relative;
     .gradient {
         position: relative;
         width: 100%;
         height: 100%;
         background: linear-gradient(-90deg, rgba(255,255,255,1) 53%, rgba(0,0,0,0) 100%);
     }
+    .round_gradient {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background: radial-gradient(circle, rgba(0,0,0,0) 49%, rgba(255,255,255,1) 100%);     }
 }
